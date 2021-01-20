@@ -8,14 +8,20 @@ html{
 }
 body{
     background-color: #1A5266;
+    font-size: 1.3rem;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
     background-color: gray;
+    width: 100%;
+    height: 6rem;
 }
-.nav ul{
-    right: 1rem;
+header nav{
+    display: flex;
+    justify-content: flex-end;
 }
+
 main{
     background-color: grey;
 }
@@ -28,4 +34,4 @@ footer{
     border-color: black;
     color: black;
 }
-diiv 
+diiv
