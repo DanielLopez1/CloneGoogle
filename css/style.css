@@ -28,7 +28,7 @@ header nav{
 header nav .nav-right-section{
     width: 25rem;
     height: auto;               /*Con auto tomamos la altura automatica del header en esta ocasion*/
-    display: flex;
+    display: flex;              /*flex nos ayuda a comodar los items de forma vertical*/
     list-style: none;           /*Le quitamos el estilo de la lista*/
     justify-content: center;
     align-items: center;
@@ -58,12 +58,32 @@ main{
 
 main .main-logo{
     width: 53rem;
-    margin: 0 auto;
+    margin: 0 auto;         /*Se posiciona en el espacio que falta*/
     margin-bottom: 3.5rem;
 }
 main .main-logo img{
     width: 27.2rem;
     height: 9.2rem;
+}
+main .main-input{
+    width: 53rem;
+    margin: 0 auto;         /*Se posiciona en el espacio que falta*/
+    margin-bottom: 3.5rem;
+}
+main .main-input-container{
+    width: 52.5rem;
+    border-radius: 10rem;
+    border: .1rem solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+main .main-input input{
+    width: 45rem;
+    height: 4rem;
+    border: none;       
+    outline: none;      /* Nos sirve para quitar el borde generado cuando damos click a un input*/
 }
 footer{
     background-color: grey
