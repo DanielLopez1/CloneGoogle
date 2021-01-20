@@ -33,12 +33,10 @@ header nav .nav-right-section{
     justify-content: center;
     align-items: center;
 }
-
 nav .nav-right-section a {
     margin-right: 1rem;         /*Con el margen de derecha, separaremos la lista*/
     color: #000000;
 }
-
 nav .nav-right-section .menu-icon {
     background-image: url('https://static.thenounproject.com/png/756729-200.png');  /*Nos traemos la imagen con una URL*/
     background-repeat: no-repeat;      /*La imagen no se repita*/
