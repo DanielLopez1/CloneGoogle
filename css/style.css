@@ -11,6 +11,10 @@ body{
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
+a{
+    text-decoration: none;      /*Ninguna decoracion en la etiqueta a */
+    cursor: pointer;            /*Al selecionar el icono tenga la mano el raton*/
+}
 
 header{
     background-color: gray;
@@ -18,9 +22,25 @@ header{
     height: 6rem;
 }
 header nav{
-    display: flex;
-    justify-content: flex-end;
+    display: flex;              /*Se utliza para posicionar el contenido*/
+    justify-content: flex-end;  /*El contenido se manda hacia la derecha*/
 }
+header nav .nav-right-section{
+    width: 25rem;
+    height: auto;               /*Con auto tomamos la altura automatica del header en esta ocasion*/
+    display: flex;
+    list-style: none;           /*Le quitamos el estilo de la lista*/
+    justify-content: center;
+    align-items: center;
+}
+
+nav .nav-right-section a {
+    margin-right: 1rem;         /*Con el margen de derecha, separaremos la lista*/
+    color: #000000;
+}
+
+
+
 
 main{
     background-color: grey;
@@ -34,4 +54,3 @@ footer{
     border-color: black;
     color: black;
 }
-diiv
