@@ -39,7 +39,18 @@ nav .nav-right-section a {
     color: #000000;
 }
 
-
+nav .nav-right-section .menu-icon {
+    background-image: url('https://static.thenounproject.com/png/756729-200.png');  /*Nos traemos la imagen con una URL*/
+    background-repeat: no-repeat;      /*La imagen no se repita*/
+    background-position: center;         /*El icono se mantenga en el centro*/
+    background-size: contain;            /*El icono se aproxime el tamaño del contenedor*/
+    width: 2.5rem;
+    height: 2.5rem;
+}
+nav .nav-right-section img{
+    border-radius: 50%;             /*El icono se redondea*/
+    margin-left: 1rem;              /*El icono se aleja 10 pixeles de la izq*/ 
+}
 
 
 main{
