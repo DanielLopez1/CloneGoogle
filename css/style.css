@@ -50,9 +50,20 @@ nav .nav-right-section img{
     margin-left: 1rem;              /*El icono se aleja 10 pixeles de la izq*/ 
 }
 
-
 main{
+    margin-top: 15rem;              /*Separarlo del nav*/
+    text-align: center;             /*Alinearlo en el centro*/
     background-color: grey;
+}
+
+main .main-logo{
+    width: 53rem;
+    margin: 0 auto;
+    margin-bottom: 3.5rem;
+}
+main .main-logo img{
+    width: 27.2rem;
+    height: 9.2rem;
 }
 footer{
     background-color: grey
