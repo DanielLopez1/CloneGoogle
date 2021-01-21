@@ -105,12 +105,31 @@ main .main-input .micro-icon{
     height: 1.8rem;
     cursor: pointer;
 }
+main .main-buttons{
+    width: 53rem;
+    margin: 0 auto;
+}
+main .main-buttons div {
+    display: inline;  /*Posiciona los div en una linea*/
+}
+main .main-buttons button{
+    height: 3.6rem;
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 1.4rem;
+    color: #5f6368;
+    border-radius: .5rem;
+    padding: 0 1.5rem;
+    margin-right: 1.5rem;
+}
+main .main-buttons button:hover{
+    border: .1rem solid #c6c6c6;
+    box-shadow: 0 .1rem .1rem rgba(0,0,0,0.1);
+    color: #222;
+    background-color: #f8f8f8;
+}
+
 footer{
     background-color: grey
 }
 
-.div_pais{
-    border: 15rem;
-    border-color: black;
-    color: black;
-}
