@@ -7,7 +7,6 @@ html{
     font-size: 62.5%;
 }
 body{
-    background-color: #1A5266;
     font-size: 1.3rem;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -17,7 +16,7 @@ a{
 }
 
 header{
-    background-color: gray;
+
     width: 100%;
     height: 6rem;
 }
@@ -53,7 +52,6 @@ nav .nav-right-section img{
 main{
     margin-top: 15rem;              /*Separarlo del nav*/
     text-align: center;             /*Alinearlo en el centro*/
-    background-color: grey;
 }
 
 main .main-logo{
@@ -84,6 +82,28 @@ main .main-input input{
     height: 4rem;
     border: none;       
     outline: none;      /* Nos sirve para quitar el borde generado cuando damos click a un input*/
+}
+main .main-input-container:hover{ /* Un seudoelemento, la idea es que al momento que el cursor pase 
+    ariba de nustro elemento haz algo y el efecto es lo que contenga el blocque de css*/
+    box-shadow: 0 .1rem .6rem 0 #20212447;
+    border-color: #dfe1e500;
+}
+main .main-input .search-icon{
+    background-image: url('https://img.icons8.com/android/24/000000/search.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+}
+main .main-input .micro-icon{
+    background-image: url('https://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 1.8rem;
+    height: 1.8rem;
+    cursor: pointer;
 }
 footer{
     background-color: grey
